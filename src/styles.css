@@ -193,15 +193,7 @@
     color: white;
   }
   
-  .rect-linea {
-    border: 1px solid black;
-    width: 500px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
+
   
   .img-dress {
     max-width: 90vw;
