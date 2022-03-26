@@ -114,119 +114,14 @@
         es una pequeña ciudad al sur de España rodeada de mar.
     </p>
 
-    <div class="container">
-        <div class="row">
+    <div class="container d-flex flex-wrap">
 
-            <div class="col py-4 d-flex align-items-center">
-                <img class="img-cad" src="/assets/imagenes/catedral.jpg" />
-                <p class="subt-color">Catedral de Cádiz</p>
-                <p class="subt-color-normal">Llamativa por su diversidad de estilos arquitectónicos, ya que las obras de
-                    construcción duraron más de
-                    100 años! </p>
-            </div>
-
-            <div class="col py-4 d-flex align-items-center">
-                <img class="img-cad" src="/assets/imagenes/dama.jpg" />
-                <p class="subt-color">Museo Arqueológico</p>
-                <p class="subt-color-normal">Lleno de piezas de diferentes civilizaciones que habitaron en Cádiz, una de
-                    sus piezas más famosas: el sarcófago fenicio "Dama de Cádiz".
-                </p>
-            </div>
-
-            <div class="col py-4 d-flex align-items-center">
-                <img class="img-cad" src="/assets/imagenes/caleta.jpg" />
-                <p class="subt-color">Atardecer en la Caleta</p>
-                <p class="subt-color-normal">Disfrutar de uno de los atardeceres más bonitos del mundo en la playa de la
-                    Caleta. </p>
-            </div>
+        <div class=" py-4 px-2 d-flex flex-column align-items-center tarjeta" *ngFor="let plan of planList">
+            <img class="img-cad" src="{{plan.image}}" />
+            <p class="subt-color">{{plan.title}}</p>
+            <p class="subt-color-normal">{{plan.description}}</p>
         </div>
-        <div class="row">
-            <div class="col py-4 d-flex align-items-center">
-                <img class="img-cad" src="/assets/imagenes/torre-tavira.jpg" />
-                <p class="subt-color">Torre Tavira</p>
-                <p class="subt-color-normal">Una de las muchas torres miradores de Cádiz, famosa por su cámara oscura.
-                    ¡Una
-                    visita obligada en la ciudad! </p>
-            </div>
 
-            <div class="col py-4 d-flex align-items-center">
-                <img class="img-cad" src="/assets/imagenes/pescao-frito.jpg" />
-                <p class="subt-color">Una de pescaito frito!</p>
-                <p class="subt-color-normal">No puedes irte de Cádiz sin probar un cartucho de "pescao frito" en alguno
-                    de
-                    las freidurías del centro (Europa o Las Flores). No puedes dejar de probar el "cazón en adobo". </p>
-            </div>
-
-            <div class="col py-4 d-flex align-items-center">
-                <img class="img-cad" src="/assets/imagenes/el-manteca.jpg" />
-                <p class="subt-color">Tapeo en "El Manteca"</p>
-                <p class="subt-color-normal">Tampoco puedes ir a Cádiz y no pasar por la Taberna "El Manteca", uno de
-                    los
-                    sitios más típicos para tapear en Cádiz! Recomendación: una de "chicharrones especiales" y mojama!
-                </p>
-            </div>
-
-            <div class="row">
-                <div class="col py-4 d-flex align-items-center">
-                    <img class="img-cad" src="/assets/imagenes/calle-sagasta.jpg" />
-                    <p class="subt-color">Perderse por sus calles</p>
-                    <p class="subt-color-normal">Recorrer sin rumbo fijo las callejuelas del centro histórico, pasando
-                        por el
-                        tradicional Barrio del Pópulo y sin olvidar el pintoresco Barrio de la Viña. </p>
-                </div>
-
-                <div class="col py-4 d-flex align-items-center">
-                    <img class="img-cad" src="/assets/imagenes/castillo-st-catalina.jpg" />
-                    <p class="subt-color">Castillo de Santa Catalina</p>
-                    <p class="subt-color-normal">Fortificación del siglo XVI situada en la playa de La Caleta, se
-                        adentra en
-                        el mar
-                        gracias
-                        a unas escolleras. Llama la atención las puntas que a manera de estrella salen al mar.
-                    </p>
-                </div>
-
-                <div class="col py-4 d-flex align-items-center">
-                    <img class="img-cad" src="/assets/imagenes/castillo-san-sebastian.jpg" />
-                    <p class="subt-color">Castillo de San Sebastián"</p>
-                    <p class="subt-color-normal">Fortaleza de la ciudad, ubicada en uno de los extremos de la playa de
-                        La Caleta sobre un pequeño islote. Lo puedes visitar solo por fuera pero merece la pena
-                        sobretodo al
-                        atardecer.
-                    </p>
-                </div>
-
-                <div class="row">
-                    <div class="col py-4 d-flex align-items-center">
-                        <img class="img-cad" src="/assets/imagenes/momumento a las cortes.jpg" />
-                        <p class="subt-color">El monumento a las Cortes de 1812</p>
-                        <p class="subt-color-normal">Monumento conmemorativo que recuerda la Constitución de 1812
-                            ubicado en la Plaza de España de Cádiz. Al estar en la plaza lo puedes ver a cualquier hora
-                            y gratis!
-                        </p>
-                    </div>
-
-                    <div class="col py-4 d-flex align-items-center">
-                        <img class="img-cad" src="/assets/imagenes/teatro-romano.jpg" />
-                        <p class="subt-color">Teatro Romano</p>
-                        <p class="subt-color-normal">Construido hacia el 70 aC cuando el Gaditano Lucio Cornelio Balbo
-                            "el
-                            Mayor", amigo personal y consejero de Julio César.
-                        </p>
-                    </div>
-
-                    <div class="col py-4 d-flex align-items-center">
-                        <img class="img-cad" src="/assets/imagenes/playa-victoria.jpg" />
-                        <p class="subt-color">Paseos infinitos por las playas"</p>
-                        <p class="subt-color-normal">Kilómetros de playa para recorrer y disfrutar de la brisa y el
-                            sonido del
-                            mar.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
     </div>
 
 </section>
