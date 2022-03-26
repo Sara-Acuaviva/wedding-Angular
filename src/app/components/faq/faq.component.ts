@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { questionsList } from './constants';
 
 @Component({
   selector: 'app-faq',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./faq.component.css']
 })
 export class FaqComponent implements OnInit {
-
+  Questions = questionsList; 
   constructor() { }
 
   ngOnInit(): void {
   }
 
 }
+
