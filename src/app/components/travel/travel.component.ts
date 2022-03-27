@@ -45,12 +45,12 @@ export class TravelComponent implements OnInit {
     {
       image: '/assets/imagenes/castillo-st-catalina.jpg',
       title: 'Castillo de Santa Catalina',
-      description: 'Fortificación del siglo XVI situada en la playa de La Caleta, se adentra en el mar graciasa unas escolleras. Llama la atención las puntas que a manera de estrella salen al mar.',
+      description: 'Fortificación del siglo XVI situada en la playa de La Caleta, que se adentra en el mar graciasa unas escolleras. Llama la atención las puntas que a manera de estrella salen al mar.',
     },
     {
       image: '/assets/imagenes/castillo-san-sebastian.jpg',
       title: 'Castillo de San Sebastián',
-      description: 'Fortaleza de la ciudad, ubicada en uno de los extremos de la playa de La Caleta sobre un pequeño islote. Lo puedes visitar solo por fuera pero merece la pena sobretodo al atardecer.',
+      description: 'Fortaleza de la ciudad ubicada en uno de los extremos de la playa de La Caleta, sobre un pequeño islote. Lo puedes visitar solo por fuera pero merece la pena sobretodo al atardecer.',
     },
     {
       image: '/assets/imagenes/momumento a las cortes.jpg',
@@ -60,7 +60,7 @@ export class TravelComponent implements OnInit {
     {
       image: '/assets/imagenes/teatro-romano.jpg',
       title: 'Teatro Romano',
-      description: 'Construido hacia el 70 aC cuando el Gaditano Lucio Cornelio Balbo "el Mayor", amigo personal y consejero de Julio César.',
+      description: 'Construido hacia el 70 a.C. cuando el Gaditano Lucio Cornelio Balbo "el Mayor", amigo personal y consejero de Julio César.',
     },
     {
       image: '/assets/imagenes/playa-victoria.jpg',

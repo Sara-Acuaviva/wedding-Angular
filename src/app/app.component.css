@@ -28,6 +28,30 @@
   text-decoration: underline;
 }
 
+.navbar-brand {
+  background-color: #869dad;
+  color: white;
+  font-family: Playfair;
+  padding: 15px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+  display: none;
+  font-size: 2rem;
+  }
+
 a:hover {
   color: rgb(51, 66, 109);
 }
+
+@media (max-width: 992px) {
+  #titulo {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+}
+
+
