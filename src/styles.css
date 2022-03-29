@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .titulo-oscuro {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #38515e;
     letter-spacing: 2px;
     font-weight: lighter;
@@ -8,7 +9,7 @@
   
   .tit-alojamiento {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     font-weight: lighter;
     text-align: left;
@@ -20,7 +21,7 @@
   
   .text-alojamiento {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     font-weight: lighter;
     font-size: 18px;
@@ -30,7 +31,8 @@
   }
   
   .texto-azul {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #38515e;
     font-size: 22px;
     letter-spacing: 1px;
@@ -41,7 +43,7 @@
   
   .texto-blanco {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: lighter;
     color: white;
     font-size: 20px;
@@ -54,7 +56,7 @@
   
   .titulo-blanco {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     font-weight: lighter;
     text-align: center;
@@ -74,7 +76,7 @@
   
   #lugar {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
     font-weight: lighter;
     text-align: center;
@@ -97,8 +99,8 @@
  
   
   .p-tit {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: bold;
     font-size: 18px;
     max-width: 80%;
@@ -107,7 +109,7 @@
   
   .p-resp {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 18px;
     max-width: 80%;
     margin: auto;
@@ -120,14 +122,14 @@
   }
   
   .tituloorganigrama {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #38515e;
     font-size: 24px;
     letter-spacing: 5px;
-    font-weight: lighter;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     line-height: 26px;
-    text-align: center
+    
   }
   
   .row .col {
