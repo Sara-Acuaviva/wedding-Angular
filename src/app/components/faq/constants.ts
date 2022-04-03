@@ -25,11 +25,15 @@ export const questionsList = [
   },
   {
     title: '¿Cuánto dura el viaje en autobús desde Madrid?',
-    description: `En autobús desde Madrid hasta Cádiz se tardan unas 8 horas.`,
+    description: `En autobús desde Madrid hasta Cádiz se tarda unas 8 horas.`,
   },
   {
     title: '¿Cuánto dura el viaje en avión desde Madrid?',
-    description: `En avión son tan sólo 1h hasta Jerez de la Frontera (XRY), desde ahí tendrás que coger tren para llegar a
+    description: `En avión es tan sólo 1h hasta Jerez de la Frontera (XRY), desde ahí tendrás que coger tren para llegar a
     Cádiz, y este trayecto dura aproximadamente 40 min.`,
+  },
+  {
+    title: '¿Dónde dormir?',
+    description: `Puedes quedarte en el Hotel donde tendrá lugar la celebración o, si lo prefieres, puedes buscar otras opciones. En el apartado "cómo llegar", te dejamos más información sobre alojamientos en Cádiz.`,
   },
 ];
